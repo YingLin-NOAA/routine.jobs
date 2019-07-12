@@ -23,11 +23,11 @@ FINDDATE=$UTILROOT/ush/finddate.sh
 ndback=7
 day=`$FINDDATE $day0 d-$ndback`
 
-DCOMROOT=/dcom/us007003
+DCOMROOT=/gpfs/dell1/nco/ops/dcom/prod
 DCOM=$DCOMROOT/$day/wgrbbul/qpe
 DCOMm1=$DCOMROOT/$daym1/wgrbbul/qpe
 
-wrkdir=/stmpp1/Ying.Lin/qpe_monitor_onerfc
+wrkdir=/gpfs/dell2/stmp/Ying.Lin/qpe_monitor
 if [ -d $wrkdir ]; then
   rm -f $wrkdir/*
 else
@@ -76,8 +76,8 @@ $DCOM/QPE.$rid.${day}12.01h
 EOF
   fi
 
-  # All RFCs except OH have 6-hourlies:
-  if [ $rid -ne 160 ]; then
+  # 2019/07/12: check for 6 hourlies only for AK/CB/CN/MB/NW RFCs:
+  if [ $rid -eq 151 -o $rid -eq 152 -o $rid -eq 153 -o $rid -eq 156 -o $rid -eq 159 ]; then
   cat >> chklist.$rid <<EOF
 $DCOMm1/QPE.$rid.${daym1}18.06h
 $DCOM/QPE.$rid.${day}00.06h
