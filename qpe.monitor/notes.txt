@@ -1,0 +1,55 @@
+150 ABRFC:
+  Contact: 3 HAS forecasters (from Bill Lawrence email, 28 Feb 2017) 
+  harold.crowley@noaa.gov (Lee Crowley)
+  larry.lowe@noaa.gov
+  mason.rowell@noaa.gov
+
+151 APRFC: (Kurt Mayer, 17 Apr 2017 email) 
+  nws.ar.aprfc@noaa.gov
+
+152 CBRFC (John Lhotak, 20 Mar 2017) 
+  cbrfc.webmasters@noaa.gov
+
+153 CNRFC: (Kyle Lerman email, 16 and 18 Apr 2017)
+    We send the QPE files by around 16:10 Z when we're on Pacific Standard Time 
+    and by 15:10 Z when we're on Pacific Daylight Time (always 8:10 am locally).
+    So if you don't get the files by around 16:30Z or so, that would probably 
+    indicate a problem.
+  cnrfc.webmaster@noaa.gov 
+  cnrfc@noaa.gov 
+
+154 LMRFC:
+  Contact: see David Welch email, 28 Feb 2017. 
+  sr-orn.all@noaa.gov 
+
+155 MARFC: Jason Nolan email, 20 Apr 2017
+  jason.nolan@noaa.gov seann.reed@noaa.gov  
+
+156 MBRFC: John Lague email: 20 Apr 2017
+  john.lague@noaa.gov
+
+157 NCRFC: Larry Ellis email, 20 Apr 2017
+  cr.msr@noaa.gov 
+
+158 NERFC: Jeff Ouellet email, 2 May 2017
+  nerfc.data@noaa.gov
+  jeffrey.ouellet@noaa.gov
+  ronald.horwood@noaa.gov
+  alison.macneil@noaa.gov
+
+159 NWRFC: Stephen King email, 12 Dec 2016
+  W-ptr.Webmaster@noaa.gov
+
+160 OHRFC: Mark Fenbers email, 25 Apr 2017
+  nws.er.ohrfc.has@noaa.gov
+
+161 SERFC (also for PRQPE): John Schmidt email, 21 Apr 2017
+  sr-alr.nws@noaa.gov
+  Christopher.Schaffer@noaa.gov
+  john.schmidt@noaa.gov
+
+162 WGRFC: 
+  sr-fwr.all@noaa.gov
+
+MRMS: 
+  NCEP.List.IDP_Support@noaa.gov

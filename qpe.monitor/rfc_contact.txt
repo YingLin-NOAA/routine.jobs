@@ -1,0 +1,46 @@
+150 ABRFC:
+  harold.crowley@noaa.gov 
+  larry.lowe@noaa.gov
+  mason.rowell@noaa.gov
+
+151 APRFC:
+  nws.ar.aprfc@noaa.gov
+
+152 CBRFC:
+  cbrfc.webmasters@noaa.gov
+
+153 CNRFC: 
+  cnrfc.webmaster@noaa.gov 
+  cnrfc@noaa.gov 
+
+154 LMRFC:
+  sr-orn.all@noaa.gov 
+
+155 MARFC: 
+  jason.nolan@noaa.gov seann.reed@noaa.gov  
+
+156 MBRFC: 
+  john.lague@noaa.gov
+
+157 NCRFC:
+  cr.msr@noaa.gov 
+
+158 NERFC:
+  nerfc.data@noaa.gov
+  jeffrey.ouellet@noaa.gov
+  ronald.horwood@noaa.gov
+  alison.macneil@noaa.gov
+
+159 NWRFC: 
+  W-ptr.Webmaster@noaa.gov
+
+160 OHRFC: 
+  nws.er.ohrfc.has@noaa.gov
+
+161 SERFC (also for PR):
+  sr-alr.nws@noaa.gov
+  Christopher.Schaffer@noaa.gov
+  john.schmidt@noaa.gov
+
+162 WGRFC:
+  sr-fwr.all@noaa.gov
