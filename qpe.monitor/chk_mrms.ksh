@@ -50,7 +50,7 @@ else
     `pwd -P`
   This is an automatic message sent by a monitoring job of Ying.Lin@noaa.gov
 EOF
-  Mail -s "Missing MRMS files for ${yyyymmdd}-${hh}Z" -r Ying.Lin@noaa.gov NCEP.List.IDP_Support@noaa.gov Viktor.Zubko@noaa.gov Ying.Lin@noaa.gov < $msg
+  Mail -s "Missing MRMS files for ${yyyymmdd}-${hh}Z" -r Ying.Lin@noaa.gov NCEP.List.IDP_Support@noaa.gov idp-support@noaa.gov Ying.Lin@noaa.gov < $msg
 fi
 
 exit
