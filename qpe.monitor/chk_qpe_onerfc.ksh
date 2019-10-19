@@ -86,8 +86,8 @@ $DCOM/QPE.$rid.${day}12.06h
 EOF
   fi
 
-  # AK/NW/MB have 24h:
-  if [ $rid -eq 151 -o $rid -eq 159 -o $rid -eq 156 ]; then
+  # AK/MB have 24h:
+  if [ $rid -eq 151 -o $rid -eq 156 ]; then
     echo $DCOM/QPE.$rid.${day}12.24h >> chklist.$rid
   fi
 
