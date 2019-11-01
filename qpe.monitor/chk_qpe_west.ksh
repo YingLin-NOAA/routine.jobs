@@ -9,6 +9,16 @@ else
   day0=$1
 fi
 
+# check for missing QPEs for "western" RFCs, i.e. all except the following 
+# five regions.  In the winter Alaska is only checked during 
+# weekdays/non-holidays, so dayakwinbeg needs to be reset.
+# 
+#   105: PR
+#   155: MARFC
+#   158: NERFC
+#   160: OHRFC
+#   161: SERFC
+# 
 # days to go back on: 
 ndback=4
 
@@ -86,7 +96,7 @@ fi # mailmode = live/yl
 
 DCOMROOT=/gpfs/dell1/nco/ops/dcom/prod
 
-wrkdir=/gpfs/dell2/stmp/Ying.Lin/qpe_monitor
+wrkdir=/gpfs/dell2/stmp/Ying.Lin/qpe_monitor_west
 if [ -d $wrkdir ]; then
   rm -f $wrkdir/*
 else
@@ -97,9 +107,9 @@ cd $wrkdir
 
 # Exclude Alaska in winter:
 if [ $day0 -lt $dayakwinbeg ]; then
-  rids="105 150 151 152 153 154 155 156 157 158 159 160 161 162"
+  rids="150 151 152 153 154 156 157 159 162"
 else
-  rids="105 150 152 153 154 155 156 157 158 159 160 161 162"
+  rids="150 152 153 154 156 157 159 162"
 fi
 
 for rid in $rids
@@ -196,9 +206,9 @@ EOF
 done # going through each RFC ID
 
 if [ $day -le $dayakwinbeg ]; then
-  msubj="QPE check AOK for $day0"
+  msubj="Western QPE check AOK for $day0"
 else
-  msubj="ConUS QPE check AOK for $day0"
+  msubj="Western ConUS QPE check AOK for $day0"
 fi
 
 if [ ! -s missing.all ]; then
