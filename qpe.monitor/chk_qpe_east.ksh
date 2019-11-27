@@ -7,10 +7,12 @@ set -A address
 # in other RFCs.
 # 
 #   105: PR
+#   154: LMRFC
 #   155: MARFC
 #   158: NERFC
 #   160: OHRFC
 #   161: SERFC
+#   162: WGRFC
 # 
 
 if [ $# -eq 0 ]; then
@@ -54,14 +56,14 @@ rfc[162]=WGRFC
 if [ $mailmode = live ]; then
 address[150]='harold.crowley@noaa.gov larry.lowe@noaa.gov mason.rowell@noaa.gov bill.lawrence@noaa.gov james.paul@noaa.gov paul.mckee@noaa.gov'
 address[151]='nws.ar.aprfc@noaa.gov'
-address[152]='cbrfc.webmasters@noaa.gov cindy.matthews@noaa.gov'
-address[153]='cnrfc.webmaster@noaa.gov cnrfc@noaa.gov cindy.matthews@noaa.gov'
+address[152]='cbrfc.webmasters@noaa.gov katherine.rowden@noaa.gov'
+address[153]='cnrfc.webmaster@noaa.gov cnrfc@noaa.gov katherine.rowden@noaa.gov'
 address[154]='sr-orn.all@noaa.gov paul.mckee@noaa.gov'
-address[155]='jason.nolan@noaa.gov seann.reed@noaa.gov laurie.hogan@noaa.gov'
-address[156]='john.lague@noaa.gov marian.baker@noaa.gov'
+address[155]='jason.nolan@noaa.gov seann.reed@noaa.gov laurie.hogan@noaa.gov robert.shedd@noaa.gov theodore.rodgers@noaa.gov david.ondrejik@noaa.gov'
+address[156]='john.lague@noaa.gov marian.baker@noaa.gov daniel.virgillito@noaa.gov briona.saltman@noaa.gov'
 address[157]='cr.msr@noaa.gov marian.baker@noaa.gov'
 address[158]='nerfc.data@noaa.gov jeffrey.ouellet@noaa.gov ronald.horwood@noaa.gov alison.macneil@noaa.gov laurie.hogan@noaa.gov'
-address[159]='W-ptr.Webmaster@noaa.gov cindy.matthews@noaa.gov'
+address[159]='nwrfc.all.hands@noaa.gov katherine.rowden@noaa.gov'
 address[160]='ohrfc.ops@noaa.gov James.Noel@noaa.gov Brian.Astifan@noaa.gov laurie.hogan@noaa.gov'
 address[161]='sr-alr.rivers@noaa.gov Christopher.Schaffer@noaa.gov john.schmidt@noaa.gov paul.mckee@noaa.gov'
 address[162]='sr-fwr.all@noaa.gov paul.mckee@noaa.gov'
@@ -103,7 +105,7 @@ fi
 
 cd $wrkdir
 
-rids="105 155 158 160 161"
+rids="105 154 155 158 160 161 162"
 
 for rid in $rids
 do 

@@ -43,7 +43,6 @@ rfc[150]=ABRFC
 rfc[151]=Alaska
 rfc[152]=CBRFC
 rfc[153]=CNRFC
-rfc[154]=LMRFC
 rfc[155]=MARFC
 rfc[156]=MBRFC
 rfc[157]=NCRFC
@@ -51,19 +50,18 @@ rfc[158]=NERFC
 rfc[159]=NWRFC
 rfc[160]=OHRFC
 rfc[161]=SERFC
-rfc[162]=WGRFC
 
 if [ $mailmode = live ]; then
 address[150]='harold.crowley@noaa.gov larry.lowe@noaa.gov mason.rowell@noaa.gov bill.lawrence@noaa.gov james.paul@noaa.gov paul.mckee@noaa.gov'
 address[151]='nws.ar.aprfc@noaa.gov'
-address[152]='cbrfc.webmasters@noaa.gov cindy.matthews@noaa.gov'
-address[153]='cnrfc.webmaster@noaa.gov cnrfc@noaa.gov cindy.matthews@noaa.gov'
+address[152]='cbrfc.webmasters@noaa.gov katherine.rowden@noaa.gov'
+address[153]='cnrfc.webmaster@noaa.gov cnrfc@noaa.gov katherine.rowden@noaa.gov'
 address[154]='sr-orn.all@noaa.gov paul.mckee@noaa.gov'
-address[155]='jason.nolan@noaa.gov seann.reed@noaa.gov laurie.hogan@noaa.gov'
-address[156]='john.lague@noaa.gov marian.baker@noaa.gov'
+address[155]='jason.nolan@noaa.gov seann.reed@noaa.gov laurie.hogan@noaa.gov robert.shedd@noaa.gov theodore.rodgers@noaa.gov david.ondrejik@noaa.gov'
+address[156]='john.lague@noaa.gov marian.baker@noaa.gov daniel.virgillito@noaa.gov briona.saltman@noaa.gov'
 address[157]='cr.msr@noaa.gov marian.baker@noaa.gov'
 address[158]='nerfc.data@noaa.gov jeffrey.ouellet@noaa.gov ronald.horwood@noaa.gov alison.macneil@noaa.gov laurie.hogan@noaa.gov'
-address[159]='W-ptr.Webmaster@noaa.gov cindy.matthews@noaa.gov'
+address[159]='nwrfc.all.hands@noaa.gov katherine.rowden@noaa.gov'
 address[160]='ohrfc.ops@noaa.gov James.Noel@noaa.gov Brian.Astifan@noaa.gov laurie.hogan@noaa.gov'
 address[161]='sr-alr.rivers@noaa.gov Christopher.Schaffer@noaa.gov john.schmidt@noaa.gov paul.mckee@noaa.gov'
 address[162]='sr-fwr.all@noaa.gov paul.mckee@noaa.gov'
@@ -107,9 +105,9 @@ cd $wrkdir
 
 # Exclude Alaska in winter:
 if [ $day0 -lt $dayakwinbeg ]; then
-  rids="150 151 152 153 154 156 157 159 162"
+  rids="150 151 152 153 156 157 159"
 else
-  rids="150 152 153 154 156 157 159 162"
+  rids="150 152 153 156 157 159"
 fi
 
 for rid in $rids

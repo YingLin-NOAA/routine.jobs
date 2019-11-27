@@ -54,10 +54,9 @@ FINDDATE=$UTILROOT/ush/finddate.sh
 # find day of week: ('6' for Saturday, '7' for Sunday)
 dow=`date +%w -d$today`
 
-if [ $dow -eq 6 -o $dow -eq 0 -o $today -eq 20181112 -o $today -eq 20181122 \
-         -o $today -eq 20181224 \
-         -o $today -eq 20181225 -o $today -eq 20190101 -o $today -eq 20190121 \
-         -o $today -eq 20190218 ]
+if [ $dow -eq 6 -o $dow -eq 0 -o $today -eq 20191128 \
+         -o $today -eq 20191225 -o $today -eq 20200101 -o $today -eq 20200120 \
+         -o $today -eq 20200217 ]
 then
   echo weekend/holiday.  Skip checking
   Mail -s "Weekend/Holiday/off day for AK, no QPE check" Ying.Lin@noaa.gov <<EOF
