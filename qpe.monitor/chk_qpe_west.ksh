@@ -22,7 +22,7 @@ fi
 # days to go back on: 
 ndback=4
 
-dayakwinbeg=20191102
+dayakwinbeg=20201101
 #dayakwinend=20180TBD
 
 #mailmode=yl
